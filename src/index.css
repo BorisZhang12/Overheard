@@ -98,22 +98,6 @@ body {
   font-weight: 500;
 }
 
-.reset-btn {
-  background-color: transparent;
-  color: var(--text-secondary);
-  border: 1px solid var(--border-color);
-  padding: 0.25rem 0.75rem;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 0.8rem;
-  transition: all 0.2s ease;
-}
-
-.reset-btn:hover {
-  background-color: var(--option-hover);
-  color: var(--text-primary);
-}
-
 /* Game Board */
 .game-board {
   display: flex;

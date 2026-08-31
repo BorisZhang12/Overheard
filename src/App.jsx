@@ -8,7 +8,7 @@ import { InfoModal } from './components/InfoModal';
 import { Analytics } from '@vercel/analytics/react';
 
 function App() {
-  const { gameState, puzzle, globalSolveCount, makeGuess, revealNextClue, resetGame } = useGameState();
+  const { gameState, puzzle, globalSolveCount, makeGuess, revealNextClue } = useGameState();
   const [isInfoOpen, setIsInfoOpen] = React.useState(false);
 
   return (
@@ -22,9 +22,6 @@ function App() {
             <strong>{globalSolveCount}</strong> {globalSolveCount === 1 ? 'person has' : 'people have'} solved Overheard today!
           </p>
         )}
-        <div style={{ marginTop: '0.5rem' }}>
-          <button className="reset-btn" onClick={resetGame}>Test: Reset Game</button>
-        </div>
       </header>
 
       <main className="game-board">

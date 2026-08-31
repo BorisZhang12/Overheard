@@ -110,22 +110,11 @@ export function useGameState() {
     }));
   };
 
-  const resetGame = () => {
-    const today = getLocalTodayDateString();
-    setGameState({
-      date: today,
-      guesses: [],
-      status: 'playing',
-      revealedCount: 1,
-    });
-  };
-
   return {
     gameState,
     puzzle,
     globalSolveCount,
     makeGuess,
     revealNextClue,
-    resetGame,
   };
 }
