@@ -50,6 +50,9 @@ export function ResultModal({ status, guesses, puzzleDate, correctAnswer, reveal
           <p>Guesses used: {isWin ? guesses.length : 'X'}/3</p>
           <p>Clues revealed: {revealedCount}/{totalClues}</p>
         </div>
+        <p style={{ marginTop: '0.5rem', marginBottom: '1rem', fontStyle: 'italic', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
+          Come back tomorrow for a new puzzle!
+        </p>
         <button className="share-btn" onClick={handleShare}>
           {copied ? 'Copied to clipboard!' : 'Share Result'}
         </button>
