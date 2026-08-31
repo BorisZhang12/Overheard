@@ -13,7 +13,7 @@ export function InfoModal({ isOpen, onClose }) {
           <p>Read the snippet of dialogue and try to guess the relationship between the two speakers.</p>
           
           <ul>
-            <li>There are <strong>6 clues</strong> per game. Reveal the dialogue line by line to build context.</li>
+            <li>You are given up to <strong>6 lines of dialogue</strong> in a conversation. Reveal them line by line to build context.</li>
             <li>You have <strong>3 guesses</strong> to find the correct relationship.</li>
             <li>Wrong guesses will be crossed out.</li>
             <li>A new puzzle is released every day!</li>
