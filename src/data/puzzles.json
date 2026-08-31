@@ -1,0 +1,372 @@
+[
+  {
+    "id": "2026-08-29",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Congratulations on the account."
+      },
+      {
+        "speaker": "B",
+        "text": "Thanks. It was a group effort."
+      },
+      {
+        "speaker": "A",
+        "text": "I'm sure it was. Though your name is the only one on the brief."
+      },
+      {
+        "speaker": "B",
+        "text": "I just finalized the formatting."
+      },
+      {
+        "speaker": "A",
+        "text": "Of course. Well, enjoy the promotion."
+      }
+    ],
+    "correct_answer": "work rivals / competitors",
+    "options": [
+      "coworkers",
+      "work rivals / competitors",
+      "boss and employee",
+      "siblings",
+      "ex-partners",
+      "old friends",
+      "teacher and student",
+      "strangers"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-08-30",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I noticed the sound again last night."
+      },
+      {
+        "speaker": "B",
+        "text": "I'm sorry, I've been trying to keep it down."
+      },
+      {
+        "speaker": "A",
+        "text": "It's fine, but the contract is pretty clear about the 10 PM rule."
+      },
+      {
+        "speaker": "B",
+        "text": "I understand. I'll stop using the blender."
+      },
+      {
+        "speaker": "A",
+        "text": "Thank you. Let me know if the sink is still dripping."
+      }
+    ],
+    "correct_answer": "landlord and tenant",
+    "options": [
+      "roommates (not related/dating)",
+      "neighbors",
+      "landlord and tenant",
+      "parent and child (adult)",
+      "siblings",
+      "coworkers",
+      "ex-partners",
+      "strangers"
+    ],
+    "difficulty_tag": "medium"
+  },
+  {
+    "id": "2026-08-31",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "It looks nice in here."
+      },
+      {
+        "speaker": "B",
+        "text": "Thanks, I changed the rugs."
+      },
+      {
+        "speaker": "A",
+        "text": "You always said you were going to do that."
+      },
+      {
+        "speaker": "B",
+        "text": "I had more free time recently."
+      },
+      {
+        "speaker": "A",
+        "text": "Right. Well, here are the rest of the boxes."
+      }
+    ],
+    "correct_answer": "ex-partners",
+    "options": [
+      "new couple (early dating)",
+      "roommates (not related/dating)",
+      "neighbors",
+      "siblings",
+      "ex-partners",
+      "coworkers",
+      "old friends",
+      "parent and child (adult)"
+    ],
+    "difficulty_tag": "medium"
+  },
+  {
+    "id": "2026-09-01",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "So, what's your typical Sunday like?"
+      },
+      {
+        "speaker": "B",
+        "text": "Honestly? Mostly laundry and staring at my phone."
+      },
+      {
+        "speaker": "A",
+        "text": "I was hoping you'd say hiking."
+      },
+      {
+        "speaker": "B",
+        "text": "I can hike! I love hiking. I own boots."
+      },
+      {
+        "speaker": "A",
+        "text": "Maybe next week, then."
+      }
+    ],
+    "correct_answer": "new couple (early dating)",
+    "options": [
+      "strangers",
+      "old friends",
+      "roommates (not related/dating)",
+      "coworkers",
+      "new couple (early dating)",
+      "long-term couple",
+      "siblings",
+      "neighbors"
+    ],
+    "difficulty_tag": "medium"
+  },
+  {
+    "id": "2026-09-02",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Are you eating enough?"
+      },
+      {
+        "speaker": "B",
+        "text": "Yes, I'm fine."
+      },
+      {
+        "speaker": "A",
+        "text": "You sounded tired on the phone."
+      },
+      {
+        "speaker": "B",
+        "text": "It's just work. I'm taking care of myself."
+      },
+      {
+        "speaker": "A",
+        "text": "Okay, I'll let you go. Don't forget to call your sister."
+      }
+    ],
+    "correct_answer": "parent and child (adult)",
+    "options": [
+      "therapist and client",
+      "doctor and patient",
+      "parent and child (adult)",
+      "old friends",
+      "siblings",
+      "ex-partners",
+      "long-term couple",
+      "boss and employee"
+    ],
+    "difficulty_tag": "medium"
+  },
+  {
+    "id": "2026-09-03",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I still have it, you know."
+      },
+      {
+        "speaker": "B",
+        "text": "Have what?"
+      },
+      {
+        "speaker": "A",
+        "text": "The mix CD you burned me sophomore year."
+      },
+      {
+        "speaker": "B",
+        "text": "Oh god, please burn it for real."
+      },
+      {
+        "speaker": "A",
+        "text": "Never. Track 4 is legendary."
+      }
+    ],
+    "correct_answer": "old friends",
+    "options": [
+      "strangers",
+      "coworkers",
+      "old friends",
+      "siblings",
+      "ex-partners",
+      "new couple (early dating)",
+      "landlord and tenant",
+      "neighbors"
+    ],
+    "difficulty_tag": "easy"
+  },
+  {
+    "id": "2026-09-04",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Did you look at the slides yet?"
+      },
+      {
+        "speaker": "B",
+        "text": "Yeah, it's brutal."
+      },
+      {
+        "speaker": "A",
+        "text": "I think we can just skip to the end."
+      },
+      {
+        "speaker": "B",
+        "text": "He's going to notice."
+      },
+      {
+        "speaker": "A",
+        "text": "We'll just say we're prioritizing."
+      }
+    ],
+    "correct_answer": "coworkers",
+    "options": [
+      "siblings",
+      "coworkers",
+      "new couple (early dating)",
+      "teacher and student",
+      "roommates (not related/dating)",
+      "boss and employee",
+      "strangers",
+      "old friends"
+    ],
+    "difficulty_tag": "easy"
+  },
+  {
+    "id": "2026-09-05",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I appreciate you looking at this."
+      },
+      {
+        "speaker": "B",
+        "text": "It's what I'm here for."
+      },
+      {
+        "speaker": "A",
+        "text": "Do you think I'm on the right track?"
+      },
+      {
+        "speaker": "B",
+        "text": "Your thesis is strong, but the third paragraph needs better citations."
+      },
+      {
+        "speaker": "A",
+        "text": "I'll revise it before Friday's deadline."
+      }
+    ],
+    "correct_answer": "teacher and student",
+    "options": [
+      "boss and employee",
+      "coworkers",
+      "therapist and client",
+      "teacher and student",
+      "parent and child (adult)",
+      "strangers",
+      "old friends",
+      "work rivals / competitors"
+    ],
+    "difficulty_tag": "easy"
+  },
+  {
+    "id": "2026-09-06",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Hi, sorry to bother you."
+      },
+      {
+        "speaker": "B",
+        "text": "No worries, what's up?"
+      },
+      {
+        "speaker": "A",
+        "text": "Did you happen to get a package for me?"
+      },
+      {
+        "speaker": "B",
+        "text": "Oh, yeah, they left it on our side of the porch yesterday."
+      },
+      {
+        "speaker": "A",
+        "text": "Thanks, they always mix up the house numbers."
+      }
+    ],
+    "correct_answer": "neighbors",
+    "options": [
+      "roommates (not related/dating)",
+      "coworkers",
+      "landlord and tenant",
+      "neighbors",
+      "siblings",
+      "strangers",
+      "old friends",
+      "ex-partners"
+    ],
+    "difficulty_tag": "easy"
+  },
+  {
+    "id": "2026-09-07",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Are you telling them, or should I?"
+      },
+      {
+        "speaker": "B",
+        "text": "You do it, you're the favorite."
+      },
+      {
+        "speaker": "A",
+        "text": "I am not the favorite."
+      },
+      {
+        "speaker": "B",
+        "text": "You literally didn't get grounded when you crashed the car."
+      },
+      {
+        "speaker": "A",
+        "text": "That was ten years ago!"
+      }
+    ],
+    "correct_answer": "siblings",
+    "options": [
+      "old friends",
+      "siblings",
+      "ex-partners",
+      "coworkers",
+      "roommates (not related/dating)",
+      "parent and child (young)",
+      "best friends",
+      "long-term couple"
+    ],
+    "difficulty_tag": "easy"
+  }
+]
