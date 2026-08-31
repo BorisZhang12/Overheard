@@ -5,6 +5,7 @@ import { OptionsGrid } from './components/OptionsGrid';
 import { GuessIndicators } from './components/GuessIndicators';
 import { ResultModal } from './components/ResultModal';
 import { InfoModal } from './components/InfoModal';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const { gameState, puzzle, globalSolveCount, makeGuess, revealNextClue, resetGame } = useGameState();
@@ -55,6 +56,7 @@ function App() {
       />
       
       <InfoModal isOpen={isInfoOpen} onClose={() => setIsInfoOpen(false)} />
+      <Analytics />
     </div>
   );
 }
