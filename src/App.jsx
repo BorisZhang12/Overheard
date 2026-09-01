@@ -14,6 +14,13 @@ function App() {
   const { user, signOut, recoveryMode } = useAuth();
   const [isInfoOpen, setIsInfoOpen] = useState(false);
   const [isLoginOpen, setIsLoginOpen] = useState(false);
+  const [isResultOpen, setIsResultOpen] = useState(false);
+
+  useEffect(() => {
+    if (gameState.status !== 'playing') {
+      setIsResultOpen(true);
+    }
+  }, [gameState.status]);
 
   useEffect(() => {
     if (recoveryMode) {
@@ -58,9 +65,35 @@ function App() {
           status={gameState.status}
           correctAnswer={puzzle.correct_answer}
         />
+
+        {gameState.status !== 'playing' && (
+          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '-0.5rem', marginBottom: '2rem' }}>
+            <button 
+              onClick={() => setIsResultOpen(true)}
+              style={{
+                padding: '0.75rem 2rem',
+                backgroundColor: 'var(--text-primary)',
+                color: 'var(--bg-color)',
+                border: 'none',
+                borderRadius: '20px',
+                fontWeight: '600',
+                fontSize: '1rem',
+                cursor: 'pointer',
+                fontFamily: 'inherit',
+                transition: 'opacity 0.2s ease',
+              }}
+              onMouseOver={(e) => e.target.style.opacity = 0.9}
+              onMouseOut={(e) => e.target.style.opacity = 1}
+            >
+              Show Stats
+            </button>
+          </div>
+        )}
       </main>
 
       <ResultModal 
+        isOpen={isResultOpen}
+        onClose={() => setIsResultOpen(false)}
         status={gameState.status} 
         guesses={gameState.guesses} 
         puzzleDate={puzzle.id} 
