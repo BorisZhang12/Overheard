@@ -1,15 +1,28 @@
 import { useState, useEffect } from 'react';
 import { getLocalTodayDateString, getTodayPuzzle } from '../utils/puzzleManager';
+import { useAuth } from '../contexts/AuthContext';
 import { supabase } from '../utils/supabaseClient';
 
 const LOCAL_STORAGE_KEY = 'overheard_save';
 
 export function useGameState() {
+  const { user } = useAuth();
   const [globalSolveCount, setGlobalSolveCount] = useState(null);
   
-  const [gameState, setGameState] = useState(() => {
+  const getStorageKey = (uid) => `overheard_save_${uid}`;
+
+  const getFreshState = () => ({
+    date: getLocalTodayDateString(),
+    guesses: [], // array of guessed strings
+    status: 'playing', // 'playing', 'won', 'lost'
+    revealedCount: 1,
+  });
+
+  const loadState = (uid) => {
+    if (!uid) return getFreshState();
+    
     const today = getLocalTodayDateString();
-    const saved = localStorage.getItem(LOCAL_STORAGE_KEY);
+    const saved = localStorage.getItem(getStorageKey(uid));
     
     if (saved) {
       try {
@@ -26,21 +39,43 @@ export function useGameState() {
       }
     }
     
-    // Fresh state for today
-    return {
-      date: today,
-      guesses: [], // array of guessed strings
-      status: 'playing', // 'playing', 'won', 'lost'
-      revealedCount: 1,
-    };
-  });
+    return getFreshState();
+  };
 
+  const [gameState, setGameState] = useState(() => loadState(user?.id));
   const puzzle = getTodayPuzzle();
+
+  // Reload state if user logs in or out
+  useEffect(() => {
+    setGameState(loadState(user?.id));
+  }, [user?.id]);
 
   // Save to local storage
   useEffect(() => {
-    localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(gameState));
-  }, [gameState]);
+    if (user?.id) {
+      localStorage.setItem(getStorageKey(user.id), JSON.stringify(gameState));
+    }
+  }, [gameState, user?.id]);
+
+  // Save to database for authenticated users
+  useEffect(() => {
+    if (gameState.status !== 'playing' && user) {
+      const saveResult = async () => {
+        const { error } = await supabase.from('user_stats').upsert({
+          user_id: user.id,
+          date: gameState.date,
+          guesses_used: gameState.status === 'won' ? gameState.guesses.length : 3,
+          clues_revealed: gameState.revealedCount,
+          won: gameState.status === 'won'
+        }, { onConflict: 'user_id, date' });
+        
+        if (error) {
+          console.error('Failed to save user stat', error);
+        }
+      };
+      saveResult();
+    }
+  }, [gameState.status, user, gameState]);
 
   // Fetch global solve count on mount
   useEffect(() => {
@@ -52,13 +87,17 @@ export function useGameState() {
           .eq('date', puzzle.id)
           .single();
           
+        if (error) {
+          console.error('Supabase Error fetching global count:', error.message, error.details);
+        }
+          
         if (data) {
           setGlobalSolveCount(data.solve_count);
         } else {
           setGlobalSolveCount(0);
         }
       } catch (err) {
-        console.error('Error fetching global count:', err);
+        console.error('Network/Execution Error fetching global count:', err);
       }
     };
     

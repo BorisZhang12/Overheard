@@ -33,7 +33,15 @@ export function InfoModal({ isOpen, onClose }) {
               <span className="speaker-label">B</span>
               <p className="dialogue-text">"I thought you did it before you left for work."</p>
             </div>
-            <p className="info-example-answer">Answer: <strong>Long-term couple</strong></p>
+            <p className="info-example-answer">
+              Relationship: <strong>Roommates</strong>
+            </p>
+          </div>
+          
+          <div style={{ marginTop: '2rem', fontSize: '0.8rem', textAlign: 'center' }}>
+            <a href="/privacy.html" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)' }}>Privacy Policy</a>
+            {' • '}
+            <a href="/terms.html" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)' }}>Terms of Service</a>
           </div>
         </div>
       </div>

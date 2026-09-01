@@ -1,14 +1,41 @@
 import React, { useState, useEffect } from 'react';
+import { useAuth } from '../contexts/AuthContext';
+import { supabase } from '../utils/supabaseClient';
 
 export function ResultModal({ status, guesses, puzzleDate, correctAnswer, revealedCount, totalClues }) {
   const [copied, setCopied] = useState(false);
   const [isOpen, setIsOpen] = useState(status !== 'playing');
+  const [stats, setStats] = useState(null);
+  const { user } = useAuth();
 
   useEffect(() => {
     if (status !== 'playing') {
       setIsOpen(true);
     }
   }, [status]);
+
+  useEffect(() => {
+    if (isOpen && user && status === 'won') {
+      const fetchStats = async () => {
+        const { data, error } = await supabase
+          .from('user_stats')
+          .select('clues_revealed')
+          .eq('user_id', user.id)
+          .eq('won', true);
+          
+        if (!error && data) {
+          const distribution = { 1:0, 2:0, 3:0, 4:0, 5:0, 6:0 };
+          data.forEach(row => {
+            if (row.clues_revealed >= 1 && row.clues_revealed <= 6) {
+              distribution[row.clues_revealed]++;
+            }
+          });
+          setStats(distribution);
+        }
+      };
+      fetchStats();
+    }
+  }, [isOpen, user, status]);
 
   if (status === 'playing' || !isOpen) return null;
 
@@ -50,6 +77,36 @@ export function ResultModal({ status, guesses, puzzleDate, correctAnswer, reveal
           <p>Guesses used: {isWin ? guesses.length : 'X'}/3</p>
           <p>Clues revealed: {revealedCount}/{totalClues}</p>
         </div>
+        
+        {isWin && (
+          <div className="stats-chart-wrapper">
+            {!user ? (
+              <p style={{fontSize: '0.875rem', marginBottom: '1.5rem', color: 'var(--text-secondary)'}}>Log in to save and track your stats!</p>
+            ) : stats && (
+              <div className="stats-chart">
+                <p className="chart-title">Clues Used (Wins)</p>
+                <div className="chart-bars">
+                  {[1,2,3,4,5,6].map(clueCount => {
+                    const count = stats[clueCount] || 0;
+                    const maxVal = Math.max(...Object.values(stats), 1);
+                    const width = Math.max((count / maxVal) * 100, 8); // min width
+                    return (
+                      <div key={clueCount} className="chart-row">
+                        <span className="chart-label">{clueCount}</span>
+                        <div className="chart-bar-container">
+                          <div className={`chart-bar ${clueCount === revealedCount ? 'current' : ''}`} style={{ width: `${width}%` }}>
+                            <span className="chart-val">{count}</span>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+
         <p style={{ marginTop: '0.5rem', marginBottom: '1rem', fontStyle: 'italic', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
           Come back tomorrow for a new puzzle!
         </p>
