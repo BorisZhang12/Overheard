@@ -31,44 +31,49 @@ function App() {
   return (
     <div className="app-container">
       <header className="app-header">
+        <div className="header-left"></div>
+        
+        <div className="header-center">
+          <h1>Overheard</h1>
+          <p className="subtitle">Read the room. Guess the relationship.</p>
+          {globalSolveCount !== null && (
+            <p className="global-stats">
+              <strong>{globalSolveCount}</strong> {globalSolveCount === 1 ? 'person has' : 'people have'} solved Overheard today!
+            </p>
+          )}
+        </div>
+
         <div className="header-actions">
+          <button className="info-btn" onClick={() => setIsInfoOpen(true)} aria-label="How to play">?</button>
           {user ? (
             <button className="auth-btn" onClick={() => signOut()}>Sign Out</button>
           ) : (
             <button className="auth-btn" onClick={() => setIsLoginOpen(true)}>Log In</button>
           )}
-          <button className="info-btn" onClick={() => setIsInfoOpen(true)} aria-label="How to play">?</button>
         </div>
-        <h1>Overheard</h1>
-        <p className="subtitle">Read the room. Guess the relationship.</p>
-        {globalSolveCount !== null && (
-          <p className="global-stats">
-            <strong>{globalSolveCount}</strong> {globalSolveCount === 1 ? 'person has' : 'people have'} solved Overheard today!
-          </p>
-        )}
       </header>
 
       <main className="game-board">
         <GuessIndicators guesses={gameState.guesses} maxGuesses={3} />
-        
-        <DialogueBox 
-          key={puzzle.id} 
-          lines={puzzle.lines} 
+
+        <DialogueBox
+          key={puzzle.id}
+          lines={puzzle.lines}
           revealedCount={gameState.revealedCount}
           onRevealNext={revealNextClue}
         />
-        
-        <OptionsGrid 
-          options={puzzle.options} 
-          onGuess={makeGuess} 
-          guesses={gameState.guesses} 
+
+        <OptionsGrid
+          options={puzzle.options}
+          onGuess={makeGuess}
+          guesses={gameState.guesses}
           status={gameState.status}
           correctAnswer={puzzle.correct_answer}
         />
 
         {gameState.status !== 'playing' && (
           <div style={{ display: 'flex', justifyContent: 'center', marginTop: '-0.5rem', marginBottom: '2rem' }}>
-            <button 
+            <button
               onClick={() => setIsResultOpen(true)}
               style={{
                 padding: '0.75rem 2rem',
@@ -91,17 +96,17 @@ function App() {
         )}
       </main>
 
-      <ResultModal 
+      <ResultModal
         isOpen={isResultOpen}
         onClose={() => setIsResultOpen(false)}
-        status={gameState.status} 
-        guesses={gameState.guesses} 
-        puzzleDate={puzzle.id} 
+        status={gameState.status}
+        guesses={gameState.guesses}
+        puzzleDate={puzzle.id}
         correctAnswer={puzzle.correct_answer}
         revealedCount={gameState.revealedCount}
         totalClues={puzzle.lines.length}
       />
-      
+
       <InfoModal isOpen={isInfoOpen} onClose={() => setIsInfoOpen(false)} />
       <LoginModal isOpen={isLoginOpen} onClose={() => setIsLoginOpen(false)} />
       <Analytics />

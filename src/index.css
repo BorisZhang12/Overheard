@@ -18,6 +18,10 @@
   --error-color: #e55c5c;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -44,17 +48,30 @@ body {
 /* Header */
 .app-header {
   position: relative;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   padding: 1rem 0;
   border-bottom: 1px solid var(--border-color);
   margin-bottom: 2rem;
 }
 
+.header-left {
+  display: none;
+}
+
+.header-center {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .header-actions {
   position: absolute;
-  top: 1rem;
   right: 0;
+  top: 1rem;
   display: flex;
+  justify-content: flex-end;
   gap: 0.5rem;
   align-items: center;
 }
@@ -81,19 +98,20 @@ body {
 }
 
 .auth-btn {
-  height: 40px;
-  padding: 0 1.25rem;
+  height: 44px;
+  padding: 0 1.5rem;
   background-color: var(--success-color);
   color: white;
   border: none;
-  border-radius: 20px;
+  border-radius: 22px;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   cursor: pointer;
   transition: opacity 0.2s ease, transform 0.1s ease;
   font-family: inherit;
   display: flex;
   align-items: center;
+  white-space: nowrap;
 }
 
 .auth-btn:hover {
