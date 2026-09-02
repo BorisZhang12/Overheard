@@ -34,21 +34,26 @@ function App() {
         <div className="header-left"></div>
         
         <div className="header-center">
-          <h1>Overheard</h1>
+          <div style={{ position: 'relative', display: 'inline-block' }}>
+            <h1>Overheard</h1>
+            <div style={{ position: 'absolute', left: '100%', top: '50%', transform: 'translateY(-50%)', display: 'flex', gap: '0.5rem', marginLeft: '1rem', alignItems: 'center' }}>
+              <button 
+                className="info-btn" 
+                onClick={() => setIsInfoOpen(true)} 
+                aria-label="How to play"
+              >?</button>
+              {user ? (
+                <button className="auth-btn" onClick={() => signOut()}>Sign Out</button>
+              ) : (
+                <button className="auth-btn" onClick={() => setIsLoginOpen(true)}>Log In</button>
+              )}
+            </div>
+          </div>
           <p className="subtitle">Read the room. Guess the relationship.</p>
           {globalSolveCount !== null && (
             <p className="global-stats">
               <strong>{globalSolveCount}</strong> {globalSolveCount === 1 ? 'person has' : 'people have'} solved Overheard today!
             </p>
-          )}
-        </div>
-
-        <div className="header-actions">
-          <button className="info-btn" onClick={() => setIsInfoOpen(true)} aria-label="How to play">?</button>
-          {user ? (
-            <button className="auth-btn" onClick={() => signOut()}>Sign Out</button>
-          ) : (
-            <button className="auth-btn" onClick={() => setIsLoginOpen(true)}>Log In</button>
           )}
         </div>
       </header>
