@@ -55,7 +55,7 @@ export function ResultModal({ isOpen, onClose, status, guesses, puzzleDate, corr
       grid = '🟥🟥🟥';
     }
     
-    return `Overheard ${puzzleDate}\nGuesses: ${isWin ? guesses.length : 'X'}/3\nClues: ${revealedCount}/${totalClues}\n${grid}\nhttps://overheard-game.com`;
+    return `Overheard ${puzzleDate}\nGuesses: ${isWin ? guesses.length : 'X'}/3\nClues: ${revealedCount}/${totalClues}\n${grid}\nhttps://overheardgame.com`;
   };
 
   const handleShare = async () => {
