@@ -368,5 +368,190 @@
       "long-term couple"
     ],
     "difficulty_tag": "easy"
+  },
+  {
+    "id": "2026-09-08",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How did you feel when that happened?"
+      },
+      {
+        "speaker": "B",
+        "text": "Angry, I guess."
+      },
+      {
+        "speaker": "A",
+        "text": "Just angry?"
+      },
+      {
+        "speaker": "B",
+        "text": "Maybe a little betrayed."
+      },
+      {
+        "speaker": "A",
+        "text": "Let's explore that feeling of betrayal."
+      }
+    ],
+    "correct_answer": "therapist and client",
+    "options": [
+      "doctor and patient",
+      "therapist and client",
+      "boss and employee",
+      "parent and child (adult)",
+      "old friends",
+      "siblings",
+      "ex-partners",
+      "teacher and student"
+    ],
+    "difficulty_tag": "medium"
+  },
+  {
+    "id": "2026-09-09",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Did you pay the electric bill?"
+      },
+      {
+        "speaker": "B",
+        "text": "Yeah, I sent you my half yesterday."
+      },
+      {
+        "speaker": "A",
+        "text": "You didn't do the dishes though."
+      },
+      {
+        "speaker": "B",
+        "text": "It's your week for the dishes."
+      },
+      {
+        "speaker": "A",
+        "text": "Right, my bad."
+      }
+    ],
+    "correct_answer": "roommates (not related/dating)",
+    "options": [
+      "siblings",
+      "long-term couple",
+      "roommates (not related/dating)",
+      "neighbors",
+      "new couple (early dating)",
+      "coworkers",
+      "old friends",
+      "landlord and tenant"
+    ],
+    "difficulty_tag": "easy"
+  },
+  {
+    "id": "2026-09-10",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "What do you want for dinner?"
+      },
+      {
+        "speaker": "B",
+        "text": "I don't know, whatever we had on Tuesday."
+      },
+      {
+        "speaker": "A",
+        "text": "We had tacos on Tuesday."
+      },
+      {
+        "speaker": "B",
+        "text": "Tacos are fine. Are we still going to your mom's this weekend?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes, unfortunately."
+      }
+    ],
+    "correct_answer": "long-term couple",
+    "options": [
+      "roommates (not related/dating)",
+      "new couple (early dating)",
+      "long-term couple",
+      "siblings",
+      "coworkers",
+      "old friends",
+      "ex-partners",
+      "strangers"
+    ],
+    "difficulty_tag": "medium"
+  },
+  {
+    "id": "2026-09-11",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How long have you had the cough?"
+      },
+      {
+        "speaker": "B",
+        "text": "About three weeks now."
+      },
+      {
+        "speaker": "A",
+        "text": "Any fever or chills?"
+      },
+      {
+        "speaker": "B",
+        "text": "Only at night."
+      },
+      {
+        "speaker": "A",
+        "text": "I'm going to prescribe you an antibiotic."
+      }
+    ],
+    "correct_answer": "doctor and patient",
+    "options": [
+      "parent and child (adult)",
+      "doctor and patient",
+      "therapist and client",
+      "boss and employee",
+      "old friends",
+      "siblings",
+      "coworkers",
+      "strangers"
+    ],
+    "difficulty_tag": "easy"
+  },
+  {
+    "id": "2026-09-12",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I can't believe you wore that to the party."
+      },
+      {
+        "speaker": "B",
+        "text": "It was a theme party!"
+      },
+      {
+        "speaker": "A",
+        "text": "The theme was 'cocktail attire.'"
+      },
+      {
+        "speaker": "B",
+        "text": "I thought it said 'cockatoo attire.'"
+      },
+      {
+        "speaker": "A",
+        "text": "You're an idiot, but I love you."
+      }
+    ],
+    "correct_answer": "old friends",
+    "options": [
+      "strangers",
+      "coworkers",
+      "old friends",
+      "siblings",
+      "ex-partners",
+      "new couple (early dating)",
+      "roommates (not related/dating)",
+      "boss and employee"
+    ],
+    "difficulty_tag": "easy"
   }
 ]
