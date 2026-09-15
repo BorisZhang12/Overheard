@@ -553,5 +553,264 @@
       "boss and employee"
     ],
     "difficulty_tag": "easy"
+  },
+  {
+    "id": "2026-09-13",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I noticed you were late again this morning."
+      },
+      {
+        "speaker": "B",
+        "text": "Traffic was unusually bad on the 405."
+      },
+      {
+        "speaker": "A",
+        "text": "I understand, but this is the third time this month."
+      },
+      {
+        "speaker": "B",
+        "text": "I'll make sure to leave earlier tomorrow."
+      },
+      {
+        "speaker": "A",
+        "text": "Please do. The client presentation starts promptly at 9."
+      }
+    ],
+    "correct_answer": "boss and employee",
+    "options": [
+      "parent and child (adult)",
+      "teacher and student",
+      "boss and employee",
+      "roommates (not related/dating)",
+      "long-term couple",
+      "coworkers",
+      "strangers",
+      "landlord and tenant"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-09-14",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I didn't expect to see you here."
+      },
+      {
+        "speaker": "B",
+        "text": "I still come here on Tuesdays. Habit, I guess."
+      },
+      {
+        "speaker": "A",
+        "text": "It's been a while. You look good."
+      },
+      {
+        "speaker": "B",
+        "text": "Thanks. Did you end up keeping the dog?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yeah, Buster is still with me. He misses you."
+      }
+    ],
+    "correct_answer": "ex-partners",
+    "options": [
+      "old friends",
+      "ex-partners",
+      "siblings",
+      "coworkers",
+      "strangers",
+      "neighbors",
+      "roommates (not related/dating)",
+      "new couple (early dating)"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-09-15",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Do you want to share the appetizer?"
+      },
+      {
+        "speaker": "B",
+        "text": "Sure, if you don't mind that I don't eat seafood."
+      },
+      {
+        "speaker": "A",
+        "text": "Oh, I didn't know that. Good to know."
+      },
+      {
+        "speaker": "B",
+        "text": "Yeah, sorry. I probably should have mentioned it before we got here."
+      },
+      {
+        "speaker": "A",
+        "text": "No worries at all! Let's just get the spinach dip. I'm having a great time so far."
+      }
+    ],
+    "correct_answer": "new couple (early dating)",
+    "options": [
+      "new couple (early dating)",
+      "long-term couple",
+      "ex-partners",
+      "strangers",
+      "coworkers",
+      "roommates (not related/dating)",
+      "old friends",
+      "siblings"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-09-16",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Are you going to be around this weekend?"
+      },
+      {
+        "speaker": "B",
+        "text": "Mostly. I might go out Saturday night."
+      },
+      {
+        "speaker": "A",
+        "text": "Okay. I'm having a few people over on Friday."
+      },
+      {
+        "speaker": "B",
+        "text": "That's fine. Just keep it in the living room, I have to work early Saturday."
+      },
+      {
+        "speaker": "A",
+        "text": "Will do. And I'll leave your shelf in the fridge alone this time."
+      }
+    ],
+    "correct_answer": "roommates (not related/dating)",
+    "options": [
+      "siblings",
+      "roommates (not related/dating)",
+      "long-term couple",
+      "landlord and tenant",
+      "neighbors",
+      "coworkers",
+      "old friends",
+      "new couple (early dating)"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-09-17",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Did you remember to turn it off?"
+      },
+      {
+        "speaker": "B",
+        "text": "I'm pretty sure I did."
+      },
+      {
+        "speaker": "A",
+        "text": "Because last time we left it on, it was a disaster."
+      },
+      {
+        "speaker": "B",
+        "text": "I know, I know. Relax, I locked the front door and checked the stove."
+      },
+      {
+        "speaker": "A",
+        "text": "Okay, good. Now put on your seatbelt, your mom hates it when we're late."
+      }
+    ],
+    "correct_answer": "long-term couple",
+    "options": [
+      "new couple (early dating)",
+      "long-term couple",
+      "ex-partners",
+      "siblings",
+      "roommates (not related/dating)",
+      "old friends",
+      "boss and employee",
+      "neighbors"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-09-18",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "You still drink it black?"
+      },
+      {
+        "speaker": "B",
+        "text": "Yeah. Some things don't change."
+      },
+      {
+        "speaker": "A",
+        "text": "I guess not. It's weird sitting across from you again."
+      },
+      {
+        "speaker": "B",
+        "text": "I wasn't sure if I should reach out, honestly."
+      },
+      {
+        "speaker": "A",
+        "text": "I'm glad you did. It's nice to clear the air after the breakup."
+      }
+    ],
+    "correct_answer": "ex-partners",
+    "options": [
+      "ex-partners",
+      "long-term couple",
+      "new couple (early dating)",
+      "old friends",
+      "siblings",
+      "coworkers",
+      "roommates (not related/dating)",
+      "strangers"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-09-19",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "You have to tell them."
+      },
+      {
+        "speaker": "B",
+        "text": "Why me? You're the one who noticed it."
+      },
+      {
+        "speaker": "A",
+        "text": "Because they'll get less mad if it comes from you."
+      },
+      {
+        "speaker": "B",
+        "text": "That is such a myth. They yell at me just as much."
+      },
+      {
+        "speaker": "A",
+        "text": "Whatever. If Dad finds out we broke his golf club, we're both dead."
+      }
+    ],
+    "correct_answer": "siblings",
+    "options": [
+      "siblings",
+      "roommates (not related/dating)",
+      "old friends",
+      "long-term couple",
+      "new couple (early dating)",
+      "ex-partners",
+      "boss and employee",
+      "neighbors"
+    ],
+    "difficulty_tag": "hard"
   }
 ]
