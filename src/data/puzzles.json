@@ -812,5 +812,264 @@
       "neighbors"
     ],
     "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-09-20",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Have you seen my cat around?"
+      },
+      {
+        "speaker": "B",
+        "text": "No, I haven't. When did she get out?"
+      },
+      {
+        "speaker": "A",
+        "text": "Sometime this morning. I accidentally left the door propped open."
+      },
+      {
+        "speaker": "B",
+        "text": "I'll keep an eye out. I'm usually working in the front yard anyway."
+      },
+      {
+        "speaker": "A",
+        "text": "Thanks so much. I really hope she didn't jump over the fence into your yard."
+      }
+    ],
+    "correct_answer": "neighbors",
+    "options": [
+      "roommates (not related/dating)",
+      "neighbors",
+      "landlord and tenant",
+      "coworkers",
+      "old friends",
+      "new couple (early dating)",
+      "strangers",
+      "siblings"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-09-21",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I really think you should consider moving closer."
+      },
+      {
+        "speaker": "B",
+        "text": "We've talked about this. I like where I am."
+      },
+      {
+        "speaker": "A",
+        "text": "It's just so far, and the drive is exhausting for me."
+      },
+      {
+        "speaker": "B",
+        "text": "I'll visit more often, I promise."
+      },
+      {
+        "speaker": "A",
+        "text": "You always say that. I just want to see my grandchildren more."
+      }
+    ],
+    "correct_answer": "parent and child (adult)",
+    "options": [
+      "boss and employee",
+      "therapist and client",
+      "teacher and student",
+      "parent and child (adult)",
+      "roommates (not related/dating)",
+      "ex-partners",
+      "strangers",
+      "neighbors"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-09-22",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Did you finish the paperwork yet?"
+      },
+      {
+        "speaker": "B",
+        "text": "I'm halfway through. The system is so slow today."
+      },
+      {
+        "speaker": "A",
+        "text": "Tell me about it. If we don't finish by five, we're stuck here."
+      },
+      {
+        "speaker": "B",
+        "text": "Do you want to split the last batch?"
+      },
+      {
+        "speaker": "A",
+        "text": "Sure, send half the files over to my desk."
+      }
+    ],
+    "correct_answer": "coworkers",
+    "options": [
+      "coworkers",
+      "work rivals / competitors",
+      "boss and employee",
+      "roommates (not related/dating)",
+      "siblings",
+      "strangers",
+      "classmates",
+      "long-term couple"
+    ],
+    "difficulty_tag": "medium"
+  },
+  {
+    "id": "2026-09-23",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "You missed the deadline again."
+      },
+      {
+        "speaker": "B",
+        "text": "I know, I had a family emergency."
+      },
+      {
+        "speaker": "A",
+        "text": "I understand, but this is a pattern."
+      },
+      {
+        "speaker": "B",
+        "text": "Is there any way I can make it up?"
+      },
+      {
+        "speaker": "A",
+        "text": "I can offer you half credit if you turn the essay in by tomorrow."
+      }
+    ],
+    "correct_answer": "teacher and student",
+    "options": [
+      "boss and employee",
+      "parent and child (adult)",
+      "teacher and student",
+      "work rivals / competitors",
+      "strangers",
+      "neighbors",
+      "old friends",
+      "roommates (not related/dating)"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-09-24",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Do you like the red one better?"
+      },
+      {
+        "speaker": "B",
+        "text": "Honestly, I think the blue one suits you more."
+      },
+      {
+        "speaker": "A",
+        "text": "You think so? The lighting in here is terrible."
+      },
+      {
+        "speaker": "B",
+        "text": "Yeah, but the blue brings out your eyes."
+      },
+      {
+        "speaker": "A",
+        "text": "Thanks for the input. I'll buy this one, even though I've never met you before."
+      }
+    ],
+    "correct_answer": "strangers",
+    "options": [
+      "new couple (early dating)",
+      "strangers",
+      "ex-partners",
+      "coworkers",
+      "neighbors",
+      "old friends",
+      "roommates (not related/dating)",
+      "long-term couple"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-09-25",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "So, how have you been feeling since our last meeting?"
+      },
+      {
+        "speaker": "B",
+        "text": "A little better, but still pretty drained."
+      },
+      {
+        "speaker": "A",
+        "text": "Have you been keeping up with the routine we discussed?"
+      },
+      {
+        "speaker": "B",
+        "text": "Mostly. I skip some days when I'm too tired."
+      },
+      {
+        "speaker": "A",
+        "text": "Well, the blood tests show your iron is still low, so keep taking the supplements."
+      }
+    ],
+    "correct_answer": "doctor and patient",
+    "options": [
+      "therapist and client",
+      "boss and employee",
+      "parent and child (adult)",
+      "teacher and student",
+      "old friends",
+      "ex-partners",
+      "strangers",
+      "doctor and patient"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-09-26",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I'm not going to approve this."
+      },
+      {
+        "speaker": "B",
+        "text": "Why not? I spent all weekend on it."
+      },
+      {
+        "speaker": "A",
+        "text": "It doesn't align with what we discussed on Friday."
+      },
+      {
+        "speaker": "B",
+        "text": "But the creative direction is much stronger this way."
+      },
+      {
+        "speaker": "A",
+        "text": "I'm the creative director, and I need you to stick to the client's brief."
+      }
+    ],
+    "correct_answer": "boss and employee",
+    "options": [
+      "work rivals / competitors",
+      "boss and employee",
+      "teacher and student",
+      "parent and child (adult)",
+      "siblings",
+      "roommates (not related/dating)",
+      "old friends",
+      "strangers"
+    ],
+    "difficulty_tag": "hard"
   }
 ]
