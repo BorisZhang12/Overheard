@@ -1071,5 +1071,264 @@
       "strangers"
     ],
     "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-10-08",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I really thought this time would be different."
+      },
+      {
+        "speaker": "B",
+        "text": "It's completely normal to feel frustrated right now."
+      },
+      {
+        "speaker": "A",
+        "text": "But I'm just making the exact same mistakes again."
+      },
+      {
+        "speaker": "B",
+        "text": "Progress isn't linear. Remember what we talked about last week?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yeah, to stop being so hard on myself. It's just hard to practice that outside of your office."
+      }
+    ],
+    "correct_answer": "therapist and client",
+    "options": [
+      "parent and child (adult)",
+      "therapist and client",
+      "old friends",
+      "long-term couple",
+      "ex-partners",
+      "coworkers",
+      "siblings",
+      "doctor and patient"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-10-09",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "You kept the sweater."
+      },
+      {
+        "speaker": "B",
+        "text": "It's warm. And it fits."
+      },
+      {
+        "speaker": "A",
+        "text": "It used to be mine, you know."
+      },
+      {
+        "speaker": "B",
+        "text": "I know. But you said I could have it when you moved out."
+      },
+      {
+        "speaker": "A",
+        "text": "I did. I just didn't expect you to wear it on our first coffee since the split."
+      }
+    ],
+    "correct_answer": "ex-partners",
+    "options": [
+      "ex-partners",
+      "siblings",
+      "old friends",
+      "coworkers",
+      "long-term couple",
+      "roommates (not related/dating)",
+      "new couple (early dating)",
+      "strangers"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-10-10",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I saw your name on the list."
+      },
+      {
+        "speaker": "B",
+        "text": "I'm sure you did. Surprised?"
+      },
+      {
+        "speaker": "A",
+        "text": "A little. I didn't think you'd go for it."
+      },
+      {
+        "speaker": "B",
+        "text": "I have just as much of a shot as you do."
+      },
+      {
+        "speaker": "A",
+        "text": "We'll see. The regional manager usually prefers seniority."
+      }
+    ],
+    "correct_answer": "work rivals / competitors",
+    "options": [
+      "siblings",
+      "roommates (not related/dating)",
+      "ex-partners",
+      "work rivals / competitors",
+      "coworkers",
+      "boss and employee",
+      "old friends",
+      "classmates"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-10-11",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Are we out again?"
+      },
+      {
+        "speaker": "B",
+        "text": "I think so. I checked this morning."
+      },
+      {
+        "speaker": "A",
+        "text": "I literally bought a whole pack on Tuesday."
+      },
+      {
+        "speaker": "B",
+        "text": "Well, Sarah's boyfriend was over, and he uses a lot."
+      },
+      {
+        "speaker": "A",
+        "text": "Okay, from now on we each buy our own toilet paper. This is ridiculous."
+      }
+    ],
+    "correct_answer": "roommates (not related/dating)",
+    "options": [
+      "roommates (not related/dating)",
+      "long-term couple",
+      "siblings",
+      "new couple (early dating)",
+      "neighbors",
+      "landlord and tenant",
+      "ex-partners",
+      "old friends"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-10-12",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I have a confession to make."
+      },
+      {
+        "speaker": "B",
+        "text": "Oh no. What is it?"
+      },
+      {
+        "speaker": "A",
+        "text": "I actually hate horror movies."
+      },
+      {
+        "speaker": "B",
+        "text": "Wait, really? But you suggested we watch one!"
+      },
+      {
+        "speaker": "A",
+        "text": "I know, I just wanted an excuse to sit closer to you on the couch."
+      }
+    ],
+    "correct_answer": "new couple (early dating)",
+    "options": [
+      "new couple (early dating)",
+      "strangers",
+      "coworkers",
+      "long-term couple",
+      "roommates (not related/dating)",
+      "old friends",
+      "ex-partners",
+      "siblings"
+    ],
+    "difficulty_tag": "medium"
+  },
+  {
+    "id": "2026-10-13",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "You're doing it wrong."
+      },
+      {
+        "speaker": "B",
+        "text": "I'm doing it exactly how they said to do it."
+      },
+      {
+        "speaker": "A",
+        "text": "No, you're rushing it. It needs to simmer."
+      },
+      {
+        "speaker": "B",
+        "text": "Since when did you become a master chef?"
+      },
+      {
+        "speaker": "A",
+        "text": "Since Mom gave me the family recipe instead of you."
+      }
+    ],
+    "correct_answer": "siblings",
+    "options": [
+      "roommates (not related/dating)",
+      "ex-partners",
+      "siblings",
+      "old friends",
+      "coworkers",
+      "neighbors",
+      "long-term couple",
+      "boss and employee"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-10-14",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I can't believe we're still doing this."
+      },
+      {
+        "speaker": "B",
+        "text": "What do you mean?"
+      },
+      {
+        "speaker": "A",
+        "text": "Sitting at the exact same table, complaining about the exact same things."
+      },
+      {
+        "speaker": "B",
+        "text": "Hey, some things never change."
+      },
+      {
+        "speaker": "A",
+        "text": "It's been ten years since high school graduation. We need new hobbies."
+      }
+    ],
+    "correct_answer": "old friends",
+    "options": [
+      "ex-partners",
+      "coworkers",
+      "old friends",
+      "siblings",
+      "roommates (not related/dating)",
+      "strangers",
+      "boss and employee",
+      "new couple (early dating)"
+    ],
+    "difficulty_tag": "medium"
   }
 ]
