@@ -1330,5 +1330,523 @@
       "new couple (early dating)"
     ],
     "difficulty_tag": "medium"
+  },
+  {
+    "id": "2026-10-22",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I really don't think it's fair that you get to keep the espresso machine."
+      },
+      {
+        "speaker": "B",
+        "text": "I put in more than half the money when we bought it!"
+      },
+      {
+        "speaker": "A",
+        "text": "Only because you insisted on getting the commercial grade one that took up half the counter."
+      },
+      {
+        "speaker": "B",
+        "text": "Fine, you can have the air fryer and the microwave to balance out the split."
+      },
+      {
+        "speaker": "A",
+        "text": "Deal. Once the landlord hands back our security deposit, we can both pack our own boxes."
+      }
+    ],
+    "correct_answer": "roommates (not related/dating)",
+    "options": [
+      "ex-partners",
+      "long-term couple",
+      "roommates (not related/dating)",
+      "siblings",
+      "landlord and tenant",
+      "coworkers",
+      "old friends",
+      "new couple (early dating)"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-10-23",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Why were you looking through my history?"
+      },
+      {
+        "speaker": "B",
+        "text": "I wasn't snooping, your screen was literally wide open when I sat down."
+      },
+      {
+        "speaker": "A",
+        "text": "Still, you didn't need to read all the recent inquiries."
+      },
+      {
+        "speaker": "B",
+        "text": "When I see that you're bookmarking apartments in another state, it kind of affects my future too."
+      },
+      {
+        "speaker": "A",
+        "text": "I'm sorry, babe. I got a job offer in Chicago, and I was trying to figure out how to bring it up before our five-year anniversary trip."
+      }
+    ],
+    "correct_answer": "long-term couple",
+    "options": [
+      "new couple (early dating)",
+      "long-term couple",
+      "roommates (not related/dating)",
+      "coworkers",
+      "boss and employee",
+      "siblings",
+      "ex-partners",
+      "parent and child (adult)"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-10-24",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Did anyone follow you here?"
+      },
+      {
+        "speaker": "B",
+        "text": "No, why would anyone follow me? You're being dramatic."
+      },
+      {
+        "speaker": "A",
+        "text": "I just don't want anyone else knowing about this arrangement."
+      },
+      {
+        "speaker": "B",
+        "text": "It's just an envelope of cash. I told you I'd pay you back every cent with interest."
+      },
+      {
+        "speaker": "A",
+        "text": "Sweetheart, I'm your mother. You don't need to pay me interest on your dental bill."
+      }
+    ],
+    "correct_answer": "parent and child (adult)",
+    "options": [
+      "strangers",
+      "parent and child (adult)",
+      "siblings",
+      "coworkers",
+      "boss and employee",
+      "old friends",
+      "work rivals / competitors",
+      "ex-partners"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-10-25",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "You stole my entire pitch."
+      },
+      {
+        "speaker": "B",
+        "text": "It wasn't your pitch. It was an open brainstorming session."
+      },
+      {
+        "speaker": "A",
+        "text": "I showed you my slide deck in confidence yesterday afternoon."
+      },
+      {
+        "speaker": "B",
+        "text": "If the VP liked my delivery better, that's just business."
+      },
+      {
+        "speaker": "A",
+        "text": "You do this every quarter. Just wait until our department performance reviews."
+      }
+    ],
+    "correct_answer": "work rivals / competitors",
+    "options": [
+      "work rivals / competitors",
+      "coworkers",
+      "boss and employee",
+      "classmates",
+      "siblings",
+      "roommates (not related/dating)",
+      "old friends",
+      "ex-partners"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-10-26",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "So... how did you think that went?"
+      },
+      {
+        "speaker": "B",
+        "text": "Honestly? A little more tense than I expected."
+      },
+      {
+        "speaker": "A",
+        "text": "I thought there was some real chemistry at first, until the topic of money came up."
+      },
+      {
+        "speaker": "B",
+        "text": "Talking about finances on a first date is usually a red flag."
+      },
+      {
+        "speaker": "A",
+        "text": "I only asked because you forgot your wallet when the check arrived."
+      }
+    ],
+    "correct_answer": "new couple (early dating)",
+    "options": [
+      "new couple (early dating)",
+      "long-term couple",
+      "ex-partners",
+      "old friends",
+      "strangers",
+      "coworkers",
+      "roommates (not related/dating)",
+      "boss and employee"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-10-27",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How long has it looked like that?"
+      },
+      {
+        "speaker": "B",
+        "text": "About four or five days. It started getting sensitive over the weekend."
+      },
+      {
+        "speaker": "A",
+        "text": "Does it sting when I apply pressure right here?"
+      },
+      {
+        "speaker": "B",
+        "text": "A little bit, yeah. Especially when it touches cold water."
+      },
+      {
+        "speaker": "A",
+        "text": "It looks like an inflamed cavity; let me numb the gum before we drill."
+      }
+    ],
+    "correct_answer": "doctor and patient",
+    "options": [
+      "doctor and patient",
+      "therapist and client",
+      "parent and child (adult)",
+      "roommates (not related/dating)",
+      "coworkers",
+      "long-term couple",
+      "new couple (early dating)",
+      "strangers"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-10-28",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "You seem unusually distant today."
+      },
+      {
+        "speaker": "B",
+        "text": "I've just had a lot weighing on my mind all week."
+      },
+      {
+        "speaker": "A",
+        "text": "When you withdraw like this, it makes it very difficult for us to make progress."
+      },
+      {
+        "speaker": "B",
+        "text": "I know, but every time I start talking about my childhood, I feel overwhelmed."
+      },
+      {
+        "speaker": "A",
+        "text": "That's why we take it slow. Let's pause and try a grounding exercise for the rest of our session."
+      }
+    ],
+    "correct_answer": "therapist and client",
+    "options": [
+      "therapist and client",
+      "doctor and patient",
+      "long-term couple",
+      "parent and child (adult)",
+      "ex-partners",
+      "old friends",
+      "new couple (early dating)",
+      "teacher and student"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-10-29",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "We really need to talk about what happened on your side of the line."
+      },
+      {
+        "speaker": "B",
+        "text": "It wasn't intentional. The wind knocked everything over."
+      },
+      {
+        "speaker": "A",
+        "text": "Still, your branches are dropping debris all over my freshly paved driveway."
+      },
+      {
+        "speaker": "B",
+        "text": "I offered to bring my hedge trimmers over and clean it up this afternoon."
+      },
+      {
+        "speaker": "A",
+        "text": "Thank you. As long as our property line stays clear, we won't have to bring the HOA into this."
+      }
+    ],
+    "correct_answer": "neighbors",
+    "options": [
+      "neighbors",
+      "landlord and tenant",
+      "roommates (not related/dating)",
+      "strangers",
+      "coworkers",
+      "old friends",
+      "parent and child (adult)",
+      "work rivals / competitors"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-10-30",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I got your letter about the increase."
+      },
+      {
+        "speaker": "B",
+        "text": "I understand it's not ideal, but maintenance costs have gone up across the board."
+      },
+      {
+        "speaker": "A",
+        "text": "An extra eight percent seems steep when the radiator still barely works."
+      },
+      {
+        "speaker": "B",
+        "text": "If you agree to sign a twelve-month extension today, I'll send the plumber over tomorrow."
+      },
+      {
+        "speaker": "A",
+        "text": "Make it a five percent bump and fix the leak under unit 4B, and I'll sign the lease renewal."
+      }
+    ],
+    "correct_answer": "landlord and tenant",
+    "options": [
+      "landlord and tenant",
+      "neighbors",
+      "roommates (not related/dating)",
+      "boss and employee",
+      "coworkers",
+      "ex-partners",
+      "strangers",
+      "old friends"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-10-31",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I almost didn't recognize you in that."
+      },
+      {
+        "speaker": "B",
+        "text": "Good. The whole point was to look completely unrecognizable."
+      },
+      {
+        "speaker": "A",
+        "text": "You always took this way more seriously than I did growing up."
+      },
+      {
+        "speaker": "B",
+        "text": "Someone had to win the neighborhood costume contest every October."
+      },
+      {
+        "speaker": "A",
+        "text": "Only because Dad helped you sew your cape while making fun of mine."
+      }
+    ],
+    "correct_answer": "siblings",
+    "options": [
+      "siblings",
+      "old friends",
+      "parent and child (adult)",
+      "roommates (not related/dating)",
+      "ex-partners",
+      "coworkers",
+      "new couple (early dating)",
+      "strangers"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-11-01",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Did you eat what was in the brown paper bag?"
+      },
+      {
+        "speaker": "B",
+        "text": "I didn't think anyone was claiming it since there was no sticky note."
+      },
+      {
+        "speaker": "A",
+        "text": "It was literally sitting on the middle shelf behind the oat milk!"
+      },
+      {
+        "speaker": "B",
+        "text": "I worked straight through lunch to finish the slide deck for the 2 PM meeting, I was starving."
+      },
+      {
+        "speaker": "A",
+        "text": "Fine, but you owe me Thai takeout, and don't touch anything in the break room fridge again."
+      }
+    ],
+    "correct_answer": "coworkers",
+    "options": [
+      "roommates (not related/dating)",
+      "coworkers",
+      "siblings",
+      "long-term couple",
+      "boss and employee",
+      "work rivals / competitors",
+      "old friends",
+      "strangers"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-11-02",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Excuse me, is this seat taken?"
+      },
+      {
+        "speaker": "B",
+        "text": "No, go right ahead. Just watch out for my bag on the floor."
+      },
+      {
+        "speaker": "A",
+        "text": "Thanks. Rough morning with all the delays, huh?"
+      },
+      {
+        "speaker": "B",
+        "text": "Terrible. I think the signal failure backed up the entire blue line."
+      },
+      {
+        "speaker": "A",
+        "text": "Well, at least this train is finally moving. Which stop are you getting off at?"
+      }
+    ],
+    "correct_answer": "strangers",
+    "options": [
+      "strangers",
+      "coworkers",
+      "neighbors",
+      "classmates",
+      "old friends",
+      "new couple (early dating)",
+      "roommates (not related/dating)",
+      "work rivals / competitors"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-11-03",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Look at you! You barely look any different."
+      },
+      {
+        "speaker": "B",
+        "text": "Don't lie, my hairline is receding and I'm wearing reading glasses now."
+      },
+      {
+        "speaker": "A",
+        "text": "Well, compared to the photo on your profile, you haven't aged a day."
+      },
+      {
+        "speaker": "B",
+        "text": "I still can't believe it's been fifteen years since freshman orientation."
+      },
+      {
+        "speaker": "A",
+        "text": "Right? It feels like yesterday we were pulling all-nighters in dorm room 302."
+      }
+    ],
+    "correct_answer": "old friends",
+    "options": [
+      "old friends",
+      "ex-partners",
+      "coworkers",
+      "roommates (not related/dating)",
+      "siblings",
+      "classmates",
+      "new couple (early dating)",
+      "work rivals / competitors"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-11-04",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I was hoping we could talk about the evaluation I received."
+      },
+      {
+        "speaker": "B",
+        "text": "I left detailed feedback on the margin of the third page."
+      },
+      {
+        "speaker": "A",
+        "text": "I saw that, but I feel like my thesis argument was misunderstood."
+      },
+      {
+        "speaker": "B",
+        "text": "Your argument was creative, but you failed to cite the required primary sources from syllabus week four."
+      },
+      {
+        "speaker": "A",
+        "text": "If I submit a revised draft by your office hours on Thursday, would you reconsider the B-minus?"
+      }
+    ],
+    "correct_answer": "teacher and student",
+    "options": [
+      "teacher and student",
+      "boss and employee",
+      "coworkers",
+      "classmates",
+      "parent and child (adult)",
+      "work rivals / competitors",
+      "therapist and client",
+      "old friends"
+    ],
+    "difficulty_tag": "hard"
   }
 ]
