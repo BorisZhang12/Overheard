@@ -1848,5 +1848,782 @@
       "old friends"
     ],
     "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-11-16",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I see you're still using that terrible restaurant app."
+      },
+      {
+        "speaker": "B",
+        "text": "It has all my loyalty points. Why change what works?"
+      },
+      {
+        "speaker": "A",
+        "text": "Because half the places on there closed two years ago."
+      },
+      {
+        "speaker": "B",
+        "text": "Well, you don't have to look at it anymore, do you?"
+      },
+      {
+        "speaker": "A",
+        "text": "True. I guess since the divorce was finalized, your dining choices aren't my problem."
+      }
+    ],
+    "correct_answer": "ex-partners",
+    "options": [
+      "ex-partners",
+      "long-term couple",
+      "old friends",
+      "coworkers",
+      "roommates (not related/dating)",
+      "new couple (early dating)",
+      "siblings",
+      "work rivals / competitors"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-11-17",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Did you get a chance to look over the numbers I sent?"
+      },
+      {
+        "speaker": "B",
+        "text": "I did, and to be honest, I expected a lot more depth."
+      },
+      {
+        "speaker": "A",
+        "text": "I worked with the data we had available on short notice."
+      },
+      {
+        "speaker": "B",
+        "text": "When leadership asks for projections, 'short notice' isn't an acceptable excuse."
+      },
+      {
+        "speaker": "A",
+        "text": "Understood. I'll revise the executive summary before your morning board meeting."
+      }
+    ],
+    "correct_answer": "boss and employee",
+    "options": [
+      "boss and employee",
+      "coworkers",
+      "work rivals / competitors",
+      "teacher and student",
+      "parent and child (adult)",
+      "old friends",
+      "roommates (not related/dating)",
+      "strangers"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-11-18",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "You really didn't have to go through all this trouble."
+      },
+      {
+        "speaker": "B",
+        "text": "It wasn't trouble at all. I actually love cooking when there's company."
+      },
+      {
+        "speaker": "A",
+        "text": "Well, everything smells incredible. Can I help set the table?"
+      },
+      {
+        "speaker": "B",
+        "text": "Just grab the wine glasses from the top cabinet. I hope cabernet is okay?"
+      },
+      {
+        "speaker": "A",
+        "text": "It's perfect. This is definitely the best second date I've been on in years."
+      }
+    ],
+    "correct_answer": "new couple (early dating)",
+    "options": [
+      "new couple (early dating)",
+      "long-term couple",
+      "old friends",
+      "strangers",
+      "roommates (not related/dating)",
+      "coworkers",
+      "ex-partners",
+      "siblings"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-11-19",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Have you noticed any stiffness when getting up in the morning?"
+      },
+      {
+        "speaker": "B",
+        "text": "A little in the lower back, but nothing unmanageable."
+      },
+      {
+        "speaker": "A",
+        "text": "Good. And what about that numbness down the left side?"
+      },
+      {
+        "speaker": "B",
+        "text": "It completely went away after I finished that round of medication."
+      },
+      {
+        "speaker": "A",
+        "text": "Excellent. We'll skip the MRI for now and keep you on physical therapy twice a week."
+      }
+    ],
+    "correct_answer": "doctor and patient",
+    "options": [
+      "doctor and patient",
+      "therapist and client",
+      "parent and child (adult)",
+      "roommates (not related/dating)",
+      "coworkers",
+      "old friends",
+      "long-term couple",
+      "strangers"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-11-20",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "What time are you setting your alarm for tomorrow?"
+      },
+      {
+        "speaker": "B",
+        "text": "Probably 6:15. Why, does the vibration wake you up?"
+      },
+      {
+        "speaker": "A",
+        "text": "No, it's just that the water pressure drops to zero if we both try to shower at the same time."
+      },
+      {
+        "speaker": "B",
+        "text": "Got it. I'll take the 6:30 slot if you want the first twenty minutes."
+      },
+      {
+        "speaker": "A",
+        "text": "Deal. Also, it's your turn to Venmo me for our half of the Wi-Fi."
+      }
+    ],
+    "correct_answer": "roommates (not related/dating)",
+    "options": [
+      "roommates (not related/dating)",
+      "long-term couple",
+      "landlord and tenant",
+      "neighbors",
+      "siblings",
+      "new couple (early dating)",
+      "ex-partners",
+      "coworkers"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-11-21",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Are you seriously wearing that to Thanksgiving?"
+      },
+      {
+        "speaker": "B",
+        "text": "What's wrong with it? It's clean."
+      },
+      {
+        "speaker": "A",
+        "text": "You know how she gets if we don't look presentable."
+      },
+      {
+        "speaker": "B",
+        "text": "She's going to criticize my life choices regardless of my shirt."
+      },
+      {
+        "speaker": "A",
+        "text": "True, but why give Mom free ammunition before she even carves the turkey?"
+      }
+    ],
+    "correct_answer": "siblings",
+    "options": [
+      "siblings",
+      "old friends",
+      "parent and child (adult)",
+      "roommates (not related/dating)",
+      "ex-partners",
+      "coworkers",
+      "long-term couple",
+      "work rivals / competitors"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-11-22",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I noticed your submission was missing the bibliography section."
+      },
+      {
+        "speaker": "B",
+        "text": "I tried uploading it right before the midnight deadline, but the portal froze."
+      },
+      {
+        "speaker": "A",
+        "text": "The system log shows your file was uploaded at 12:47 AM."
+      },
+      {
+        "speaker": "B",
+        "text": "Is there any way I can avoid the late penalty? My overall average really needs this."
+      },
+      {
+        "speaker": "A",
+        "text": "I'll deduct five points instead of ten, but make sure your final exam prep starts early."
+      }
+    ],
+    "correct_answer": "teacher and student",
+    "options": [
+      "teacher and student",
+      "boss and employee",
+      "parent and child (adult)",
+      "classmates",
+      "work rivals / competitors",
+      "coworkers",
+      "therapist and client",
+      "old friends"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-11-23",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Did you hear what happened in the all-hands?"
+      },
+      {
+        "speaker": "B",
+        "text": "No, I had my camera off while prepping those client decks."
+      },
+      {
+        "speaker": "A",
+        "text": "They're restructuring the whole fourth floor starting in January."
+      },
+      {
+        "speaker": "B",
+        "text": "Great, that means we're probably losing our window desks."
+      },
+      {
+        "speaker": "A",
+        "text": "Yep. Let's grab coffee in the break room before our team sync and complain together."
+      }
+    ],
+    "correct_answer": "coworkers",
+    "options": [
+      "coworkers",
+      "work rivals / competitors",
+      "boss and employee",
+      "roommates (not related/dating)",
+      "old friends",
+      "classmates",
+      "strangers",
+      "long-term couple"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-11-24",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Were you in the hallway around noon?"
+      },
+      {
+        "speaker": "B",
+        "text": "Yes, I was conducting the annual smoke detector inspection."
+      },
+      {
+        "speaker": "A",
+        "text": "You're supposed to give at least 24 hours written notice before coming on the premises."
+      },
+      {
+        "speaker": "B",
+        "text": "I posted a flyer on the lobby bulletin board last Friday."
+      },
+      {
+        "speaker": "A",
+        "text": "A lobby flyer doesn't count as direct notice under our residential lease agreement."
+      }
+    ],
+    "correct_answer": "landlord and tenant",
+    "options": [
+      "landlord and tenant",
+      "neighbors",
+      "roommates (not related/dating)",
+      "strangers",
+      "coworkers",
+      "boss and employee",
+      "ex-partners",
+      "old friends"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-11-25",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Excuse me, do you know how much longer the line usually takes?"
+      },
+      {
+        "speaker": "B",
+        "text": "Once they open the second security lane, it moves pretty fast."
+      },
+      {
+        "speaker": "A",
+        "text": "Good, my boarding group starts in twenty minutes and I'm cutting it close."
+      },
+      {
+        "speaker": "B",
+        "text": "Where are you flying out to?"
+      },
+      {
+        "speaker": "A",
+        "text": "Just heading home to Denver. Have a safe flight wherever you're headed!"
+      }
+    ],
+    "correct_answer": "strangers",
+    "options": [
+      "strangers",
+      "new couple (early dating)",
+      "old friends",
+      "coworkers",
+      "neighbors",
+      "classmates",
+      "roommates (not related/dating)",
+      "ex-partners"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-11-26",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "You didn't eat nearly enough of the stuffing."
+      },
+      {
+        "speaker": "B",
+        "text": "I had two full plates! I'm genuinely stuffed."
+      },
+      {
+        "speaker": "A",
+        "text": "You've lost weight. Are you eating properly out there?"
+      },
+      {
+        "speaker": "B",
+        "text": "I cook every single day, I promise I'm taking care of myself."
+      },
+      {
+        "speaker": "A",
+        "text": "I know you're thirty now, but you'll always be my baby boy. Take some leftovers home."
+      }
+    ],
+    "correct_answer": "parent and child (adult)",
+    "options": [
+      "parent and child (adult)",
+      "siblings",
+      "long-term couple",
+      "old friends",
+      "therapist and client",
+      "boss and employee",
+      "roommates (not related/dating)",
+      "new couple (early dating)"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-11-27",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I heard your pitch didn't make the final round."
+      },
+      {
+        "speaker": "B",
+        "text": "Neither did yours, so I wouldn't celebrate just yet."
+      },
+      {
+        "speaker": "A",
+        "text": "At least the panel asked me follow-up questions about market strategy."
+      },
+      {
+        "speaker": "B",
+        "text": "They were just being polite before choosing external consultants."
+      },
+      {
+        "speaker": "A",
+        "text": "Don't worry, you'll have another chance to lose the regional account to me next year."
+      }
+    ],
+    "correct_answer": "work rivals / competitors",
+    "options": [
+      "work rivals / competitors",
+      "coworkers",
+      "boss and employee",
+      "classmates",
+      "siblings",
+      "old friends",
+      "strangers",
+      "ex-partners"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-11-28",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Did a delivery driver drop off a package near your steps earlier?"
+      },
+      {
+        "speaker": "B",
+        "text": "Yeah, there was a heavy box sitting by my porch when I got home."
+      },
+      {
+        "speaker": "A",
+        "text": "The shipping app said it was delivered to number 42 instead of 44."
+      },
+      {
+        "speaker": "B",
+        "text": "I dragged it over near your garage so it wouldn't get rained on."
+      },
+      {
+        "speaker": "A",
+        "text": "Thanks so much. Borrowing your snowblower last week really saved our driveway, too!"
+      }
+    ],
+    "correct_answer": "neighbors",
+    "options": [
+      "neighbors",
+      "landlord and tenant",
+      "roommates (not related/dating)",
+      "strangers",
+      "old friends",
+      "coworkers",
+      "long-term couple",
+      "siblings"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-11-29",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How did it feel when you finally said no to them?"
+      },
+      {
+        "speaker": "B",
+        "text": "Honestly, I felt sick to my stomach for the rest of the day."
+      },
+      {
+        "speaker": "A",
+        "text": "That's a very common somatic reaction when you first practice setting boundaries."
+      },
+      {
+        "speaker": "B",
+        "text": "I kept thinking I was being selfish for putting my own needs first."
+      },
+      {
+        "speaker": "A",
+        "text": "Self-preservation isn't selfishness. Let's unpack that guilt before our fifty minutes are up."
+      }
+    ],
+    "correct_answer": "therapist and client",
+    "options": [
+      "therapist and client",
+      "doctor and patient",
+      "old friends",
+      "parent and child (adult)",
+      "long-term couple",
+      "boss and employee",
+      "teacher and student",
+      "ex-partners"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-11-30",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Who's handling the introduction during the presentation?"
+      },
+      {
+        "speaker": "B",
+        "text": "I thought Liam was doing it, but he hasn't answered the group chat all day."
+      },
+      {
+        "speaker": "A",
+        "text": "Typical. He barely contributed anything to the shared Google doc either."
+      },
+      {
+        "speaker": "B",
+        "text": "If he doesn't show up to lecture tomorrow, we should take his name off the title slide."
+      },
+      {
+        "speaker": "A",
+        "text": "Agreed. I'm not letting a slacker ruin our group project grade for Sociology 101."
+      }
+    ],
+    "correct_answer": "classmates",
+    "options": [
+      "classmates",
+      "coworkers",
+      "teacher and student",
+      "old friends",
+      "work rivals / competitors",
+      "roommates (not related/dating)",
+      "siblings",
+      "new couple (early dating)"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-12-01",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Are we really doing this right now?"
+      },
+      {
+        "speaker": "B",
+        "text": "We've been putting off this decision for six months."
+      },
+      {
+        "speaker": "A",
+        "text": "It's just a huge financial commitment to lock ourselves into."
+      },
+      {
+        "speaker": "B",
+        "text": "We have the joint savings for it, and the interest rate is locked until Friday."
+      },
+      {
+        "speaker": "A",
+        "text": "You're right. After seven years of renting together, let's go put down the earnest money."
+      }
+    ],
+    "correct_answer": "long-term couple",
+    "options": [
+      "long-term couple",
+      "new couple (early dating)",
+      "roommates (not related/dating)",
+      "old friends",
+      "ex-partners",
+      "siblings",
+      "coworkers",
+      "parent and child (adult)"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-12-02",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I can't believe how much has changed since we last sat here."
+      },
+      {
+        "speaker": "B",
+        "text": "I know. Different cities, different jobs, totally different lives."
+      },
+      {
+        "speaker": "A",
+        "text": "Do you ever miss how simple everything used to be back then?"
+      },
+      {
+        "speaker": "B",
+        "text": "Sometimes, but mostly I'm just glad we can pick right back up like no time passed."
+      },
+      {
+        "speaker": "A",
+        "text": "Same here. Twenty years since middle school band camp, and you're still my favorite person to reminisce with."
+      }
+    ],
+    "correct_answer": "old friends",
+    "options": [
+      "old friends",
+      "ex-partners",
+      "coworkers",
+      "siblings",
+      "classmates",
+      "new couple (early dating)",
+      "roommates (not related/dating)",
+      "strangers"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-12-03",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "How nervous are you on a scale of one to ten?"
+      },
+      {
+        "speaker": "B",
+        "text": "Probably an eleven. What if they don't like me?"
+      },
+      {
+        "speaker": "A",
+        "text": "They're going to love you. Just be yourself and don't bring up politics."
+      },
+      {
+        "speaker": "B",
+        "text": "Do I shake hands, or is your crowd more of a hugging group?"
+      },
+      {
+        "speaker": "A",
+        "text": "Just hugs! Relax, it's just drinks with my close circle so they can finally meet the person I've been gushing about for three weeks."
+      }
+    ],
+    "correct_answer": "new couple (early dating)",
+    "options": [
+      "new couple (early dating)",
+      "long-term couple",
+      "ex-partners",
+      "old friends",
+      "roommates (not related/dating)",
+      "strangers",
+      "coworkers",
+      "siblings"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-12-04",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Do you have a few minutes to talk about my compensation?"
+      },
+      {
+        "speaker": "B",
+        "text": "Sure, close the door. What's on your mind?"
+      },
+      {
+        "speaker": "A",
+        "text": "I've consistently exceeded all my quarterly targets and taken on three additional accounts."
+      },
+      {
+        "speaker": "B",
+        "text": "Your dedication has definitely been noticed across the leadership team."
+      },
+      {
+        "speaker": "A",
+        "text": "Thank you. Given my performance this year, I'd like to formally request a promotion to Senior Account Lead."
+      }
+    ],
+    "correct_answer": "boss and employee",
+    "options": [
+      "boss and employee",
+      "teacher and student",
+      "work rivals / competitors",
+      "coworkers",
+      "parent and child (adult)",
+      "therapist and client",
+      "old friends",
+      "classmates"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-12-05",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "Why did you dig this old thing out of the attic?"
+      },
+      {
+        "speaker": "B",
+        "text": "Because it's a classic and it still works perfectly!"
+      },
+      {
+        "speaker": "A",
+        "text": "You literally broke the left controller twenty years ago and blamed it on the dog."
+      },
+      {
+        "speaker": "B",
+        "text": "I was seven years old! Are you ever going to let that go?"
+      },
+      {
+        "speaker": "A",
+        "text": "Never. You're my younger brother—holding childhood grudges is my birthright."
+      }
+    ],
+    "correct_answer": "siblings",
+    "options": [
+      "siblings",
+      "old friends",
+      "roommates (not related/dating)",
+      "parent and child (adult)",
+      "coworkers",
+      "ex-partners",
+      "long-term couple",
+      "work rivals / competitors"
+    ],
+    "difficulty_tag": "hard"
+  },
+  {
+    "id": "2026-12-06",
+    "lines": [
+      {
+        "speaker": "A",
+        "text": "I didn't think Maya invited both of us."
+      },
+      {
+        "speaker": "B",
+        "text": "She did. I told her it wouldn't be awkward as long as we were civil."
+      },
+      {
+        "speaker": "A",
+        "text": "Are we being civil right now?"
+      },
+      {
+        "speaker": "B",
+        "text": "I'm trying, but seeing you with someone else is harder than I thought."
+      },
+      {
+        "speaker": "A",
+        "text": "It's been a year since we broke up. We both promised we'd move on."
+      }
+    ],
+    "correct_answer": "ex-partners",
+    "options": [
+      "ex-partners",
+      "long-term couple",
+      "old friends",
+      "new couple (early dating)",
+      "roommates (not related/dating)",
+      "coworkers",
+      "strangers",
+      "neighbors"
+    ],
+    "difficulty_tag": "hard"
   }
 ]
